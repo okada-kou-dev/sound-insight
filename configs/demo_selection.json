@@ -1,0 +1,839 @@
+{
+  "version": 2,
+  "seed": 42,
+  "manifest_sha256": "5cf8906f9c50b66e795fba5b79d3e2e250df69dca8ab7eea5863a1434a9358a2",
+  "selection": "existing public20 unchanged, plus 40 per label drawn before candidate evaluation",
+  "public20": [
+    "92ac0e2ac75899de446dfceb",
+    "d6177c506a6cf21f80d6e40d",
+    "4edbdffbd67e89a10a6873db",
+    "82b1e216c10f03582ec18dee",
+    "5f158d9d5ac933636c2af924",
+    "abcea7fb6ce8b96583217a42",
+    "4705ceebf72d96c22a7ad30a",
+    "933dcb2e7b88aacdcac7e972",
+    "81b112b436d1c9022b1ac4c9",
+    "355c94f3f288eedfaa5bf9f1",
+    "2baae936e5126b5265b52fd9",
+    "3ca987d5d5b206c3a0f9a6e2",
+    "e90ba7452e46318ae42b7c69",
+    "1ce5a9958a635c923e8baa5f",
+    "accba8a8e36df5241cee3706",
+    "27852e300b46b63b554e4755",
+    "44dca70e56b0d716a5a7d10f",
+    "c196bc683c283f4a2b251622",
+    "7b1a48df08b4027d21b57056",
+    "c9c40ea9da70e71a9e4883fe"
+  ],
+  "local100": [
+    "92ac0e2ac75899de446dfceb",
+    "d6177c506a6cf21f80d6e40d",
+    "4edbdffbd67e89a10a6873db",
+    "82b1e216c10f03582ec18dee",
+    "5f158d9d5ac933636c2af924",
+    "abcea7fb6ce8b96583217a42",
+    "4705ceebf72d96c22a7ad30a",
+    "933dcb2e7b88aacdcac7e972",
+    "81b112b436d1c9022b1ac4c9",
+    "355c94f3f288eedfaa5bf9f1",
+    "2baae936e5126b5265b52fd9",
+    "3ca987d5d5b206c3a0f9a6e2",
+    "e90ba7452e46318ae42b7c69",
+    "1ce5a9958a635c923e8baa5f",
+    "accba8a8e36df5241cee3706",
+    "27852e300b46b63b554e4755",
+    "44dca70e56b0d716a5a7d10f",
+    "c196bc683c283f4a2b251622",
+    "7b1a48df08b4027d21b57056",
+    "c9c40ea9da70e71a9e4883fe",
+    "21b4b3cbc2bcf044dd555000",
+    "5abc89aaa659563f9c95cd06",
+    "9ef42414abd0135d45db537b",
+    "92d2a8fb6a2c6759f1858b36",
+    "aeb9cb2cc0b42ac162a3e47f",
+    "55ea4e4a4738bbdb04ccad85",
+    "b0dadbbc89cb912a02485f65",
+    "0ce9176558b05358191e5bdb",
+    "ba89c2be8cd731e11846835e",
+    "81ff711e46118f032a9e1a30",
+    "d31061d5983bafb55aad1b8a",
+    "a9a723ca291d1d82b81c0a16",
+    "9ec7123d58d0c9c98d1afb61",
+    "4418c36355328a69e1b2f0a3",
+    "23c59d7a88ca27d5d9f29a1a",
+    "86b373db29537643c008bb79",
+    "bea753164b3c6d27cf0fc767",
+    "a89140570ff3b95bb3d96da0",
+    "191a5dd9020b74ccd3d50620",
+    "28a1e3c71739084f2372bb73",
+    "74d504313361a33c797639b0",
+    "c0da21c880700cebdb889ee8",
+    "582bb32fdbd2066f734ab76f",
+    "ec001405a573cc170baeac3f",
+    "437433f3ff5952dfda9d63b0",
+    "2e97682697f5f768bd53be10",
+    "83be7caa5a80ddbe468e5336",
+    "7b066b3c5dab821c2d7b34cb",
+    "40289cdb1eefa3cc5eba2822",
+    "dd995cfa89b583117513d1cb",
+    "5182fdf1f9b911f88af077c5",
+    "3a2eacf287989d6d03db6a5c",
+    "1af25650db31f8fc1141242e",
+    "6ddb772ea03171474be6aabe",
+    "b263191930f0c5a585e8e939",
+    "a028ab560d843acaa10d4ec9",
+    "c839a66b1c08eb4c1b0747c8",
+    "be2cb037a3dc4b0074230703",
+    "ba1103ab16a2db3af8490d93",
+    "3fdb4da9d9ec6a37a51d84b3",
+    "b11d0b0bb273f7e136910f53",
+    "0f5d551ac8138cabf2fe2643",
+    "5f595c83f1a1942d2641e778",
+    "6b893224ef529d7913c5837b",
+    "182cee36ccd438559a0471d5",
+    "68d444e2eb4b532afbc401c2",
+    "a1843598a9cd3034fc75ad70",
+    "86b5f7b2fef91765d893c840",
+    "f491b220c71ceb91d138765c",
+    "b058c5af1206b38031076605",
+    "7d0352cb59dfd09beda6a814",
+    "fedad14e2b53b83e370a2a0a",
+    "88753fbe0df456d9493704f0",
+    "78a79205a52da9d15d757fe5",
+    "40de0260ba78c692ca106299",
+    "d6ab21716266d6305ddb5d6b",
+    "a98ba555c8cefbb54344ea09",
+    "1d5e629b8f003249fb6f86a9",
+    "5161b2e12c1ae205990ff1ef",
+    "9e5000c23302314773601ff2",
+    "67929cb264d7482aa1c911a5",
+    "4821570317d0721c3c39c6f8",
+    "0a085c06d8162e5c86209fb9",
+    "9867b3028974c2f57666955c",
+    "dc3212fcc03f06a0b7f60666",
+    "1d632a43bb254c87c40aab04",
+    "a9c1acde97d69fba44945339",
+    "fae5ed80ca5b0819f4145bb5",
+    "8b363cbfba44a2874746bd81",
+    "82ada3b5e0c8b58b6716782a",
+    "63b248aa2883c2204fb6c311",
+    "70dc1cadcbd3b735104815d4",
+    "6e884eeacbf69f6b0d094eb8",
+    "9acdc6cd18bb79ce11128819",
+    "396aa332fc36e2d146d8827b",
+    "b7991eb59087eade5f80abab",
+    "c76b4bf07318ba0cc75d91ca",
+    "3b0e73da7f4d9b228bc1305c",
+    "c8641bdbb96ecef23c1343e9",
+    "4ba7350c007d151daa8d6d27"
+  ],
+  "records": [
+    {
+      "record_id": "92ac0e2ac75899de446dfceb",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000070.wav",
+      "selected_channel_sha256": "532bebe1a91c1110648c82ddd62c460f5f4957dfd96038fdde548652ed2e437a",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "d6177c506a6cf21f80d6e40d",
+      "relative_path": "data/raw/pump/id_00/normal/00000836.wav",
+      "selected_channel_sha256": "e055b74d4843964cc027ed394b658955c23b7d62fdf36e60ba6dc8fe2c22c6de",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "4edbdffbd67e89a10a6873db",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000053.wav",
+      "selected_channel_sha256": "71519a014a2822295d8287ed416eb31acb76312815be604327a5404107806de3",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "82b1e216c10f03582ec18dee",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000140.wav",
+      "selected_channel_sha256": "d2773745dc0450a22be5551eefec892a22a8a17d23e483c88afef9fae2622880",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "5f158d9d5ac933636c2af924",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000007.wav",
+      "selected_channel_sha256": "99e086b33f2a53ec2988d02096d5eb1452a74c70f87df512422a957962992fb7",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "abcea7fb6ce8b96583217a42",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000019.wav",
+      "selected_channel_sha256": "4bb4c68b2b71d8b4000911a6f41d366e687937625f2e0a4365cbc8f6911ac306",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "4705ceebf72d96c22a7ad30a",
+      "relative_path": "data/raw/pump/id_00/normal/00000976.wav",
+      "selected_channel_sha256": "361978549bc8a2f2203e7157fee254e1ed85dce9f4faf5b1babdf4ddbea39409",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "933dcb2e7b88aacdcac7e972",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000136.wav",
+      "selected_channel_sha256": "672ff66098d9df341f6264731e7c6e7e2784dfdb81ef498e21470d341ab90f70",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "81b112b436d1c9022b1ac4c9",
+      "relative_path": "data/raw/pump/id_00/normal/00000057.wav",
+      "selected_channel_sha256": "a5d6f3296a5ea0fb0c8009df45a13af5f1256b5c871025b18ff335b59d21b0eb",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "355c94f3f288eedfaa5bf9f1",
+      "relative_path": "data/raw/pump/id_00/normal/00000167.wav",
+      "selected_channel_sha256": "db66b3e93f9fb630052772f23b6e79855d501761a1c4fdaa5ea5abf191bb50bb",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "2baae936e5126b5265b52fd9",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000107.wav",
+      "selected_channel_sha256": "916cfef9f13eac91d78e2fa777c8c1d8a74f0416021fe9a6afded45393266be6",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "3ca987d5d5b206c3a0f9a6e2",
+      "relative_path": "data/raw/pump/id_00/normal/00000161.wav",
+      "selected_channel_sha256": "1a629527bd5d9116b0390143588c0930f0d372dda114e9d174421b87652d5b5c",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "e90ba7452e46318ae42b7c69",
+      "relative_path": "data/raw/pump/id_00/normal/00000410.wav",
+      "selected_channel_sha256": "e3a985e841029617aa8b5720e078d75179f4bab35a629774366e2aa798057ee4",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "1ce5a9958a635c923e8baa5f",
+      "relative_path": "data/raw/pump/id_00/normal/00000323.wav",
+      "selected_channel_sha256": "6a4a452db7c90fec858252d1743aea3aeadd8d369fe9374d1577fa7025e2d12c",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "accba8a8e36df5241cee3706",
+      "relative_path": "data/raw/pump/id_00/normal/00000217.wav",
+      "selected_channel_sha256": "e2da3404cc49da264f770cc3210730f212d9bb0aa2f1ae28a06a968c5d5caca0",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "27852e300b46b63b554e4755",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000006.wav",
+      "selected_channel_sha256": "7970922b4995c9fc7e21ffb7f33f1ea0118a93a8ff99081c0691caf3058d5357",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "44dca70e56b0d716a5a7d10f",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000048.wav",
+      "selected_channel_sha256": "15d1bd18e6661ba2d2762cf2a19563b13ecc0d12cc67530f63b19416b9a27bc4",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "c196bc683c283f4a2b251622",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000141.wav",
+      "selected_channel_sha256": "3eedc7f7b7aedbb02f3f0b4fc1e6b23dbd117e4c76e3923bba3b7ec806c24867",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "7b1a48df08b4027d21b57056",
+      "relative_path": "data/raw/pump/id_00/normal/00000390.wav",
+      "selected_channel_sha256": "41f1ef80c3c791b17560d3090be314b924d7a699b7f018d89d209ae81af3893a",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "c9c40ea9da70e71a9e4883fe",
+      "relative_path": "data/raw/pump/id_00/normal/00000914.wav",
+      "selected_channel_sha256": "18fd29bc3202987a8ff635c1e5c855a16cdc8293365aa768b5654978780bfa38",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "21b4b3cbc2bcf044dd555000",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000125.wav",
+      "selected_channel_sha256": "bd3c0ac3fc2722835457c752fd0a1bfc22536516fbafafa88deda32730f7f179",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "5abc89aaa659563f9c95cd06",
+      "relative_path": "data/raw/pump/id_00/normal/00000224.wav",
+      "selected_channel_sha256": "bbd75e3b115fc2d97874356dd17c0e71ba67bddebd47cc1d3684bb45e665ddad",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "9ef42414abd0135d45db537b",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000116.wav",
+      "selected_channel_sha256": "4673bc3698c4d135b080d991854accf046ef9244572da0dedd96cebe6a9d9882",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "92d2a8fb6a2c6759f1858b36",
+      "relative_path": "data/raw/pump/id_00/normal/00000511.wav",
+      "selected_channel_sha256": "9e5374d35477cbccd3cde8a3df83ca65649d67d8563c0e042d05ee5e7fa4a145",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "aeb9cb2cc0b42ac162a3e47f",
+      "relative_path": "data/raw/pump/id_00/normal/00000855.wav",
+      "selected_channel_sha256": "ddd1bddd0071d625410dd73802dc0f9041e3bb4de9267ee2c4bd533964d3ee66",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "55ea4e4a4738bbdb04ccad85",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000043.wav",
+      "selected_channel_sha256": "3731cec24f127d79f6580dd4c39483a5433c8eaa437b241ee6b18dfcc3b79833",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "b0dadbbc89cb912a02485f65",
+      "relative_path": "data/raw/pump/id_00/normal/00000003.wav",
+      "selected_channel_sha256": "174c3f4b82f886365542d57818554248029e18fa315aa53e43b74cf56b8ede37",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "0ce9176558b05358191e5bdb",
+      "relative_path": "data/raw/pump/id_00/normal/00000438.wav",
+      "selected_channel_sha256": "2cfa028e6916073c20a29e25710bb809980803e037f2816f35cbaf5181a32f34",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "ba89c2be8cd731e11846835e",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000092.wav",
+      "selected_channel_sha256": "3d17d818b24a56b4bbc57d5464d5864784512b938138212c8b6ed4b9e7a15b18",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "81ff711e46118f032a9e1a30",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000102.wav",
+      "selected_channel_sha256": "039528c99ebfda98dd77555402287b6a2b64fce4de53ba8ef430401f117af8e0",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "d31061d5983bafb55aad1b8a",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000025.wav",
+      "selected_channel_sha256": "5858025f8444be0fd9e07d159ae304315e6a1649809d2f99a90608428587625b",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "a9a723ca291d1d82b81c0a16",
+      "relative_path": "data/raw/pump/id_00/normal/00000216.wav",
+      "selected_channel_sha256": "bc507049b8e09adc329e78e68a3782c43e2c2936d5cff2fda05b7eee9e4b1ad8",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "9ec7123d58d0c9c98d1afb61",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000058.wav",
+      "selected_channel_sha256": "d73d4e463d7dea93deae8ce697b0a65bde6c74c4866922d29ecadffc9c444a61",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "4418c36355328a69e1b2f0a3",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000045.wav",
+      "selected_channel_sha256": "0b1582d2ef6401ea86230da2e9456c189611a4592f7a406da00348c87876ccc4",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "23c59d7a88ca27d5d9f29a1a",
+      "relative_path": "data/raw/pump/id_00/normal/00000993.wav",
+      "selected_channel_sha256": "7b608595180c4ed671e00eb9f1e3f13e02095098b0813aa182165d0baafb7ce6",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "86b373db29537643c008bb79",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000017.wav",
+      "selected_channel_sha256": "75924e4fbb4e679c05da9180b91f1e08f08e176ee034f2f4ed279d6cc915ab2c",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "bea753164b3c6d27cf0fc767",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000087.wav",
+      "selected_channel_sha256": "a66bea6a6f2d707b2b3927d9e1c9df71bbb38f7c9d912eea301efad28d2bec92",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "a89140570ff3b95bb3d96da0",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000047.wav",
+      "selected_channel_sha256": "d33bf884d17ee087c06819c093daa345a9500aeaada989fe4969fdbd86bdc7d0",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "191a5dd9020b74ccd3d50620",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000142.wav",
+      "selected_channel_sha256": "3c067766f700e63be5bdcc6e1dbe1a163b282e04653fa0fd6bd246d74711bcd6",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "28a1e3c71739084f2372bb73",
+      "relative_path": "data/raw/pump/id_00/normal/00000257.wav",
+      "selected_channel_sha256": "f3e1a152f6495475079a2ba7f67d79de906b9b4542c75514bf13d68c659c3094",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "74d504313361a33c797639b0",
+      "relative_path": "data/raw/pump/id_00/normal/00000736.wav",
+      "selected_channel_sha256": "10b0e296e459735c11a6be979d294243d7ca2ca7259a99d17ffd8c6e95b23385",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "c0da21c880700cebdb889ee8",
+      "relative_path": "data/raw/pump/id_00/normal/00000388.wav",
+      "selected_channel_sha256": "c06c4a232a086c44348145de8a6d66c2b0c02be43df4f95edf50639f9a390cae",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "582bb32fdbd2066f734ab76f",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000101.wav",
+      "selected_channel_sha256": "47261884d018a579f8324d3f68fac677cc9a1e98ae283b881141a894de69eb04",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "ec001405a573cc170baeac3f",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000016.wav",
+      "selected_channel_sha256": "0ca68997f9733a63133254279163714c12c6f119562c8f27bcbcbdbc436e8bfc",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "437433f3ff5952dfda9d63b0",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000134.wav",
+      "selected_channel_sha256": "c5d76fe731e4229b3fd34cd1d35ee6b7658a9b94d499663145cb6caf2bb7f511",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "2e97682697f5f768bd53be10",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000028.wav",
+      "selected_channel_sha256": "4cc7617c75be37af9ac9be0830ca11cce1d6da8fb2a1886e1562b9a655414afd",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "83be7caa5a80ddbe468e5336",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000115.wav",
+      "selected_channel_sha256": "dba79eea778c06998967c1385e80373b3820b8c2bfeac554044f54e42dc41951",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "7b066b3c5dab821c2d7b34cb",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000033.wav",
+      "selected_channel_sha256": "eed4194b50daa7c034ee5e06969bd577fc760e7ed75bc86551f09d44978f9162",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "40289cdb1eefa3cc5eba2822",
+      "relative_path": "data/raw/pump/id_00/normal/00000073.wav",
+      "selected_channel_sha256": "03cdb62259cf78ba81e38e4cb762a89717b0864c701c80548b2f648f6045ba74",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "dd995cfa89b583117513d1cb",
+      "relative_path": "data/raw/pump/id_00/normal/00000961.wav",
+      "selected_channel_sha256": "da07891d4251db709c474725dac1b27163b58afde15e23a5f0401ceab643fea0",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "5182fdf1f9b911f88af077c5",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000046.wav",
+      "selected_channel_sha256": "42e849121d8b28fa09135db7f367e3968b3a2ee4e01c291f0c7c356939fbade3",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "3a2eacf287989d6d03db6a5c",
+      "relative_path": "data/raw/pump/id_00/normal/00000273.wav",
+      "selected_channel_sha256": "f284508eef93cf362ec436310d0919178a9b6adbeb12a1ebe0bb2c2e417a5cf7",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "1af25650db31f8fc1141242e",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000012.wav",
+      "selected_channel_sha256": "6e9d6dccb426af9468eeaf7d1a1e8f0119e943de9c25a946bf63f5794a98290b",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "6ddb772ea03171474be6aabe",
+      "relative_path": "data/raw/pump/id_00/normal/00000274.wav",
+      "selected_channel_sha256": "5386b5b8620d5cea43fd7678efcea24d56807d3247ec0ef1bc18e751033c54ae",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "b263191930f0c5a585e8e939",
+      "relative_path": "data/raw/pump/id_00/normal/00000942.wav",
+      "selected_channel_sha256": "d253367be723ee5eaec364963c5ce21675d4e33c2b76df0b3794c3fcf9349c76",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "a028ab560d843acaa10d4ec9",
+      "relative_path": "data/raw/pump/id_00/normal/00000964.wav",
+      "selected_channel_sha256": "64cef26a95f40b91b8dca67bada93883c46e6cb456fb6c33640bae981ab1564d",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "c839a66b1c08eb4c1b0747c8",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000049.wav",
+      "selected_channel_sha256": "9749a78d77386c04993f0797b2e150ba149dcdbd24a63c58bbb4c42e433b4c37",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "be2cb037a3dc4b0074230703",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000009.wav",
+      "selected_channel_sha256": "b2c55c3d8808870b204e27649308fbfe1d6364821466f381a760a17dcbcff640",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "ba1103ab16a2db3af8490d93",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000109.wav",
+      "selected_channel_sha256": "eb504e9672f5c18489f4ef24d377444553353805b4a8af2b626b282f3a560bed",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "3fdb4da9d9ec6a37a51d84b3",
+      "relative_path": "data/raw/pump/id_00/normal/00000962.wav",
+      "selected_channel_sha256": "ed60eafef098d52973c01cb8f4098cb531eb6c7a3ead85df5c68565210d99fa6",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "b11d0b0bb273f7e136910f53",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000037.wav",
+      "selected_channel_sha256": "4c28b7864273dc9306b08356b312d8ad1fb5dee76387f2ae6f58d348b57563b2",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "0f5d551ac8138cabf2fe2643",
+      "relative_path": "data/raw/pump/id_00/normal/00000408.wav",
+      "selected_channel_sha256": "549841d4adf127b0d1724a0ac936cde1e11b1d135ae2cfce8de610977b04f358",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "5f595c83f1a1942d2641e778",
+      "relative_path": "data/raw/pump/id_00/normal/00000405.wav",
+      "selected_channel_sha256": "6b2e6417f3ef4d791b1af67a8c30a9f8f79ebb82677ae664324d66745fec78bf",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "6b893224ef529d7913c5837b",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000004.wav",
+      "selected_channel_sha256": "efa7b47a32efcb4f171e99f9e4c295bd431fdde9fcff31e825e9ac33ee478f34",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "182cee36ccd438559a0471d5",
+      "relative_path": "data/raw/pump/id_00/normal/00000905.wav",
+      "selected_channel_sha256": "d98e072cc24668d89719e5f85284e0c600b9c2fd80e93c72acdeeb7cf2e9e582",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "68d444e2eb4b532afbc401c2",
+      "relative_path": "data/raw/pump/id_00/normal/00001004.wav",
+      "selected_channel_sha256": "1fbceff2e8d566be762ab2de8ca41c40ef3b05c4af494d0d684a28da314c9f63",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "a1843598a9cd3034fc75ad70",
+      "relative_path": "data/raw/pump/id_00/normal/00000067.wav",
+      "selected_channel_sha256": "1e9b9b78cc7b4c667cb4fb4cd2835998095a59e739da868cbd4cc0dd5afd9235",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "86b5f7b2fef91765d893c840",
+      "relative_path": "data/raw/pump/id_00/normal/00000696.wav",
+      "selected_channel_sha256": "db757dcbee586999c59e823a478c214943d4d150cb0171f423a07886a7e362a1",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "f491b220c71ceb91d138765c",
+      "relative_path": "data/raw/pump/id_00/normal/00000762.wav",
+      "selected_channel_sha256": "7f1599b1d2bf94cd6d86ef299aa9b6f41feab5058da5e469e91409d3e08c961d",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "b058c5af1206b38031076605",
+      "relative_path": "data/raw/pump/id_00/normal/00000811.wav",
+      "selected_channel_sha256": "28147369bec70701584f4eb333e02861ba12ee226ec1be26339b72a74453a056",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "7d0352cb59dfd09beda6a814",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000093.wav",
+      "selected_channel_sha256": "daae9d4e9094f5f21ff2cc3c8e750764503996728cabe3402e0e82e74f7fa421",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "fedad14e2b53b83e370a2a0a",
+      "relative_path": "data/raw/pump/id_00/normal/00000469.wav",
+      "selected_channel_sha256": "c11d5c98438261d68a357f45bdfacfc940b1d375d3fcbc6dfe296037d486b1e9",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "88753fbe0df456d9493704f0",
+      "relative_path": "data/raw/pump/id_00/normal/00000332.wav",
+      "selected_channel_sha256": "63cce6308a07758b2481eb387c1cd21f81eab531ab907454a6323ad9294ccc30",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "78a79205a52da9d15d757fe5",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000084.wav",
+      "selected_channel_sha256": "32e364b9324c3521b59b27227d04b46515f10402f6d1d20c0d4e70939df05598",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "40de0260ba78c692ca106299",
+      "relative_path": "data/raw/pump/id_00/normal/00000642.wav",
+      "selected_channel_sha256": "093c7f698a8157cad8774bba0d2d6bf93e12fd10507b2222ddff1df54852bacb",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "d6ab21716266d6305ddb5d6b",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000091.wav",
+      "selected_channel_sha256": "58827fcf6f34a78926e3d6728b3830690a42cd1b5e770a2961d42c65ca359601",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "a98ba555c8cefbb54344ea09",
+      "relative_path": "data/raw/pump/id_00/normal/00000093.wav",
+      "selected_channel_sha256": "ad3c2e966867375f9a07325d9bf61ecc38fe2c8773d74bbe8b69970e73b00d95",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "1d5e629b8f003249fb6f86a9",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000100.wav",
+      "selected_channel_sha256": "40c618849d4f0a9d13ff8b2cfd0b4c1354f925765674a911dce31a533dc46888",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "5161b2e12c1ae205990ff1ef",
+      "relative_path": "data/raw/pump/id_00/normal/00000671.wav",
+      "selected_channel_sha256": "2d28deb0c9e7474acd6dea1614b83c5fbfb68204c75d75ac0d197dda7b6b1fcb",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "9e5000c23302314773601ff2",
+      "relative_path": "data/raw/pump/id_00/normal/00000156.wav",
+      "selected_channel_sha256": "c5f8cea8fafdcc3f4c02519496670d8fd57e7da800ba632e5d950f8a602f2d98",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "67929cb264d7482aa1c911a5",
+      "relative_path": "data/raw/pump/id_00/normal/00000065.wav",
+      "selected_channel_sha256": "eec07ad72a6859b958bf9682ab908c55cba068870c117882c343ae4ed4a35ff3",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "4821570317d0721c3c39c6f8",
+      "relative_path": "data/raw/pump/id_00/normal/00000998.wav",
+      "selected_channel_sha256": "4ee419608246b947ca71caaa7e423cb77c5a2d1ec0deeb6a862c8ef4aab0a0b3",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "0a085c06d8162e5c86209fb9",
+      "relative_path": "data/raw/pump/id_00/normal/00000931.wav",
+      "selected_channel_sha256": "0a29e3e5514413653b539b3e452b2aac7425f22e330f104390224f25611cf910",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "9867b3028974c2f57666955c",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000085.wav",
+      "selected_channel_sha256": "5bba3ade06814153f80d8104e2649ba8fa699dcd21a5871d289568c7f7f4ef24",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "dc3212fcc03f06a0b7f60666",
+      "relative_path": "data/raw/pump/id_00/normal/00000937.wav",
+      "selected_channel_sha256": "2063f4ad1d260f22b604c54410f5783937f561e33912edce929b8976db4b3dfa",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "1d632a43bb254c87c40aab04",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000026.wav",
+      "selected_channel_sha256": "1fe38afc8fa5b0cb9d9754c32e658ac2b1a4a24d007d6fb42d19977303ef1316",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "a9c1acde97d69fba44945339",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000122.wav",
+      "selected_channel_sha256": "36ee0dfbad498891062d3b7d50f287958a631e2280529c69d88fb6916a728ded",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "fae5ed80ca5b0819f4145bb5",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000079.wav",
+      "selected_channel_sha256": "dd0f01ef2001c1cbb68ed79fa050ff93084d3ea8a05c2dc5700095e616c8a184",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "8b363cbfba44a2874746bd81",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000014.wav",
+      "selected_channel_sha256": "b2840ecba8ae4193a7263c4e76cafae6e80607f86ab93b1decf052fc26b3426e",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "82ada3b5e0c8b58b6716782a",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000126.wav",
+      "selected_channel_sha256": "571823483f41d217fbc7807733f7ac66ef395324d4ebbf53ed075a53aba4dd37",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "63b248aa2883c2204fb6c311",
+      "relative_path": "data/raw/pump/id_00/normal/00000597.wav",
+      "selected_channel_sha256": "2a246628747303517b0157391e62884bba3280b197dd758941f807aac0ee033a",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "70dc1cadcbd3b735104815d4",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000090.wav",
+      "selected_channel_sha256": "81657c583d8a45a4b30c3b5c9acf5d18bb8fa43f3266fce68b6437cca82efe97",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "6e884eeacbf69f6b0d094eb8",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000127.wav",
+      "selected_channel_sha256": "2e8aef08d7e92c31f7a53eb90abd1313ebb5c642d8c32e3804ec4ef51a893dab",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "9acdc6cd18bb79ce11128819",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000105.wav",
+      "selected_channel_sha256": "74499be1c324f63f8814993164630490d2ca03b7157ba3721d1755fb588e5f57",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "396aa332fc36e2d146d8827b",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000065.wav",
+      "selected_channel_sha256": "eaf2cad28fb9e2e31827346ae6b16086e1562899a29189e3456b5ea77da73a2f",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "b7991eb59087eade5f80abab",
+      "relative_path": "data/raw/pump/id_00/normal/00000980.wav",
+      "selected_channel_sha256": "f872e1282f7f32eea33caca282dd19d9a71f6c45968a22539a11bd971bbf6be3",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "c76b4bf07318ba0cc75d91ca",
+      "relative_path": "data/raw/pump/id_00/abnormal/00000039.wav",
+      "selected_channel_sha256": "87a5badc4e9b6cf7d3795fb13ec4d99b2a4a2af9ffed165b3f540acde9781984",
+      "label": 1,
+      "split": "development"
+    },
+    {
+      "record_id": "3b0e73da7f4d9b228bc1305c",
+      "relative_path": "data/raw/pump/id_00/normal/00000141.wav",
+      "selected_channel_sha256": "44cbf29a5d88a382d9fb01f991657ad86bbfd841a00fd4f54aeca5c6c6d5bcda",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "c8641bdbb96ecef23c1343e9",
+      "relative_path": "data/raw/pump/id_00/normal/00000701.wav",
+      "selected_channel_sha256": "75a99b45dbeef4a4fbda973109769504461ab6e7179d9111a155bc653b0cad6c",
+      "label": 0,
+      "split": "development"
+    },
+    {
+      "record_id": "4ba7350c007d151daa8d6d27",
+      "relative_path": "data/raw/pump/id_00/normal/00000787.wav",
+      "selected_channel_sha256": "4b9660aadd1bee6a17743682b687f5d843abbb0ed5f4bc1cb308a3a238818dfb",
+      "label": 0,
+      "split": "development"
+    }
+  ],
+  "ordering": {
+    "seed": 20260920,
+    "first_id": "92ac0e2ac75899de446dfceb",
+    "second_id": "d6177c506a6cf21f80d6e40d",
+    "original_selection_sha256": "f4e23d9331c9fb83c50c5b2a01d4faee56880cf0046dca9b95f1b486ea50c6d7",
+    "reason": "presentation order only; first clip has intermittent model detections"
+  }
+}

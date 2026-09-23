@@ -1,0 +1,63 @@
+{
+  "manifest_hash": "5cf8906f9c50b66e795fba5b79d3e2e250df69dca8ab7eea5863a1434a9358a2",
+  "target": {
+    "machine_type": "pump",
+    "machine_id": "id_00",
+    "snr_db": 6
+  },
+  "channel_index": 0,
+  "seed": 42,
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "machine": "AMD64",
+    "logical_cpus": 16,
+    "dependencies": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "librosa": "1.0.0",
+      "soundfile": "0.14.0",
+      "scikit-learn": "1.9.1",
+      "streamlit": "1.64.0",
+      "psutil": "7.2.2"
+    }
+  },
+  "final_test_used": false,
+  "demo_selection_sha256": "f4e23d9331c9fb83c50c5b2a01d4faee56880cf0046dca9b95f1b486ea50c6d7",
+  "method": "normal_knn_mean_v1",
+  "model_id": "temporal_knn_20260920T043557Z_ec67496d",
+  "model_format_version": 1,
+  "feature_config": {
+    "sample_rate": 16000,
+    "channel_index": 0,
+    "n_fft": 1024,
+    "win_length": 1024,
+    "hop_length": 512,
+    "n_mels": 64,
+    "power": 2.0,
+    "center": false,
+    "window": "hann",
+    "fmin": 0,
+    "fmax": 8000,
+    "htk": false,
+    "norm": "slaney",
+    "context_frames": 5,
+    "log_floor": 1e-10
+  },
+  "frames": 15,
+  "persistence": 5,
+  "neighbors": 5,
+  "aggregation": "mean sustained nearest distance",
+  "train_clips": 604,
+  "train_vectors_used": 19328,
+  "threshold": 0.5660465394761023,
+  "calibration_method": "fixed_demo100_min_errors_then_fp_then_margin",
+  "window_threshold": 0.7145877691215936,
+  "window_calibration": {
+    "split": "normal calibration",
+    "quantile": 0.995,
+    "method": "higher",
+    "unit": "sustained windows"
+  },
+  "evaluation_role": "fixed100 used for threshold and method development; not independent test"
+}

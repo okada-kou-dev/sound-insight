@@ -1,0 +1,22 @@
+<section class="sound-player" aria-label="音声とAI反応の同期モニター">
+  <div class="player-topline"><span class="eyebrow"><i class="live-dot"></i> SOUND INSIGHT</span><span class="transport-status" data-field="status">再生待ち</span></div>
+  <div class="track-heading"><p class="eyebrow subdued" data-field="track-index">SAMPLE 01</p><div class="tags"><span class="tag" data-field="reference"></span><span class="tag" data-field="decision"></span></div></div>
+  <div class="visual-grid">
+    <aside class="reaction-card">
+      <div class="orbit" data-field="orbit"><svg viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="76" class="orbit-rail"/><circle cx="90" cy="90" r="76" class="orbit-progress" data-field="orbit-progress"/><circle cx="90" cy="90" r="62" class="orbit-inner"/></svg><div class="orbit-core"><strong data-field="window-score">—</strong></div></div>
+      <div class="reaction-copy"><p class="reaction-title">ANOMALY SCORE</p><p class="microcopy">正常パターンからの距離</p><span class="window-range" data-field="window-range"></span></div>
+    </aside>
+    <div class="signal-panel response-panel"><div class="signal-label"><span>AI RESPONSE</span><span class="insight-caption">正常近傍からの乖離を示す持続スコア</span></div><canvas class="score-canvas" data-canvas="score" aria-label="正常パターンからの距離と再生位置"></canvas></div>
+    <div class="signal-panel spectrogram-panel"><div class="signal-label"><span>SPECTROGRAM</span><span class="legacy-frequency-label">低周波 ↓ / 高周波 ↑</span></div><canvas class="mel-canvas" data-canvas="mel" aria-label="ログメルスペクトログラムと再生位置"></canvas><div class="time-axis"><span>0.0s</span><span data-field="duration-axis"></span></div></div>
+    <div class="signal-panel contribution-panel" hidden><div class="signal-label"><span>SPECTRAL CONTRIBUTION</span><span class="contribution-scale">0 <i></i> 0.15+ / band</span><span class="insight-caption">持続スコアの周波数帯別寄与</span></div><canvas data-canvas="contribution" aria-label="持続スコアへの帯域別寄与と異常区間"></canvas></div>
+    <div class="signal-panel waveform-panel"><div class="signal-label"><span>WAVEFORM</span></div><canvas class="wave-canvas" data-canvas="wave" aria-label="音声波形と再生位置"></canvas></div>
+    <div class="scene-panel terrain-panel"><div class="signal-label"><span>SPECTRAL TERRAIN</span><div class="terrain-modes" role="group" aria-label="地形の表示形式"><button type="button" data-terrain-mode="line" aria-pressed="false" aria-label="折れ線表示">LINE</button><button type="button" data-terrain-mode="bars" aria-pressed="true" aria-label="棒グラフ表示">BARS</button></div></div><canvas data-canvas="waterfall" class="scene-canvas" aria-label="周波数と時間の立体表示"></canvas></div>
+    <div class="scene-panel nebula-panel"><div class="signal-label"><span>SONIC NEBULA</span></div><canvas data-canvas="nebula" class="scene-canvas" aria-label="音に反応する粒子の渦"></canvas></div>
+  </div>
+  <div class="timeline"><output data-field="position">0:00.0</output><input class="seek" type="range" min="0" max="10" step="0.01" value="0" aria-label="再生位置（秒）"><output data-field="duration">0:10.0</output></div>
+  <div class="transport-row"><div class="transport-buttons"><button class="icon-button" data-action="previous" aria-label="前のサンプル">|◀</button><button class="play-button" data-action="play" aria-label="音声を再生">▶ 再生</button><button class="icon-button" data-action="stop" aria-label="停止して先頭へ戻す">■</button><button class="icon-button" data-action="next" aria-label="次のサンプル">▶|</button></div><label class="continuous-control"><input type="checkbox" data-control="continuous" checked> 連続再生</label><div class="clip-metrics"><span>クリップ全体 <b data-field="clip-score"></b></span><span>固定しきい値 <b data-field="threshold"></b></span></div></div>
+  <div class="speed-row"><label>再生速度 <output data-field="rate">1.00×</output></label><input type="range" data-control="rate" min="0.25" max="10" step="0.25" value="1" aria-label="再生速度 0.25倍から10倍"><div class="speed-presets"><button data-rate="0.25">0.25×</button><button data-rate="0.5">0.5×</button><button data-rate="1" aria-label="標準の1倍速に戻す">1× 標準</button><button data-rate="2">2×</button><button data-rate="5">5×</button><button data-rate="10">10×</button></div></div>
+  <p class="player-notice" data-field="notice" role="status" aria-live="polite">再生中も速度を変更できます。再生速度を変えてもAIの検出精度は変わりません。</p>
+  <details class="playlist"><summary>再生リスト <span data-field="playlist-count"></span></summary><div class="playlist-items" data-field="playlist"></div></details>
+
+</section>

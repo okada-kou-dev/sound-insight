@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "target": {"machine_type": "pump", "machine_id": "id_00", "snr_db": 6},
+  "feature": {
+    "sample_rate": 16000, "channel_index": 0,
+    "n_fft": 1024, "win_length": 1024, "hop_length": 512,
+    "n_mels": 64, "power": 2.0, "center": false, "window": "hann",
+    "fmin": 0, "fmax": 8000, "htk": false, "norm": "slaney",
+    "context_frames": 5, "log_floor": 1e-10
+  },
+  "training": {
+    "n_clusters": 16, "batch_size": 1024, "n_init": 3,
+    "max_iter": 100, "random_state": 42,
+    "max_vectors_per_clip": 64, "max_training_vectors": 100000,
+    "threads": 4, "timeout_seconds": 900
+  }
+}

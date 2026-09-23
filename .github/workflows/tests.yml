@@ -1,0 +1,54 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    env:
+      PYTHONIOENCODING: utf-8
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Create isolated environment
+        run: python -m venv .venv
+      - name: Install pinned wheels and check dependencies
+        shell: pwsh
+        run: |
+          $py = if ($IsWindows) { '.venv/Scripts/python.exe' } else { '.venv/bin/python' }
+          & $py -m pip install --only-binary=:all: -r requirements-lock.txt
+          if ($LASTEXITCODE -ne 0) { throw "Installation failed: $LASTEXITCODE" }
+          & $py -m pip check
+          if ($LASTEXITCODE -ne 0) { throw "Dependency check failed: $LASTEXITCODE" }
+      - name: Test without original data
+        shell: pwsh
+        run: |
+          $py = if ($IsWindows) { '.venv/Scripts/python.exe' } else { '.venv/bin/python' }
+          & $py -m unittest discover -s tests -p 'test_*.py' -v
+          if ($LASTEXITCODE -ne 0) { throw "Tests failed: $LASTEXITCODE" }
+          & $py -m scripts.verify_demo --synthetic
+          if ($LASTEXITCODE -ne 0) { throw "Synthetic verification failed: $LASTEXITCODE" }
+      - name: Verify bundled samples against frozen development results
+        shell: pwsh
+        run: |
+          $py = if ($IsWindows) { '.venv/Scripts/python.exe' } else { '.venv/bin/python' }
+          & $py -m scripts.verify_public_demo
+          if ($LASTEXITCODE -ne 0) { throw "Public demo verification failed: $LASTEXITCODE" }

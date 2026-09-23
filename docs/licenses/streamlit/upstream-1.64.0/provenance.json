@@ -1,0 +1,16 @@
+[
+  {
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/streamlit/streamlit/1.64.0/LICENSE",
+    "size": 11358,
+    "git_blob_sha1": "57bc88a15a0ee8266c259b2667e64608d3f7e292",
+    "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+  },
+  {
+    "file": "NOTICES",
+    "url": "https://raw.githubusercontent.com/streamlit/streamlit/1.64.0/NOTICES",
+    "size": 803598,
+    "git_blob_sha1": "fcbeae2b87640d0b3fde81754800545a105a14a5",
+    "sha256": "c8e34144b1151439b17967ffb5180ce6a022d73950b2631ebb4dae7588cb2b2e"
+  }
+]

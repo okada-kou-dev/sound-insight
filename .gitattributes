@@ -1,0 +1,11 @@
+# Source text uses LF; frozen bundle bytes must retain their original hashes.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+/demo_assets/** -text -whitespace
+/configs/demo_selection*.json -text whitespace=cr-at-eol
+/docs/licenses/** -text -whitespace
+
+/configs/demo50.json -text whitespace=cr-at-eol

@@ -1,0 +1,11 @@
+{
+  "model_id": "temporal_knn_20260920T043557Z_ec67496d",
+  "manifest_sha256": "5cf8906f9c50b66e795fba5b79d3e2e250df69dca8ab7eea5863a1434a9358a2",
+  "frozen": true,
+  "selection_report": "outputs/selection.json",
+  "selection_sha256": "edd00b8bdd329416cbe4ac1850d0e329c9403e317f27f2737777c2e52af13b86",
+  "artifact_sha256": {
+    "arrays.npz": "e24c70dc0aadf9c69d00c09334d0227dbdcc1941fb8341db92f04e6aeb4bc2a4",
+    "metadata.json": "8301f8563be4a5ccaafdd349ed3104a5b68798a8905ef8b9ada47ce8d8cebf25"
+  }
+}

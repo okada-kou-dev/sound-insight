@@ -1,0 +1,4 @@
+# Community Cloud also installs this exact, reviewed dependency set.
+# Linux wheel availability and runtime remain separate deployment checks.
+# Rebuild the shared spectral-insight release with the same pinned runtime.
+-r requirements-lock.txt
